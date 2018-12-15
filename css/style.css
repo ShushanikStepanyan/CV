@@ -4,5 +4,9 @@
 }
 
 body {
-	background-image: url('../bvik.jpg');
+	background-image: url('../3.jpg');
+    background-size: 100% ;
+ background-repeat: no-repeat;
+    
 }
+

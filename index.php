@@ -4,6 +4,7 @@
 	<meta charset="utf-8">
 	<title>Doc</title>
     <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
 
@@ -21,12 +22,15 @@
 
 
 <div style="float:left; margin-top: 5%">
-<button class = "btn1" style ="width:150px; margin-left:90px; background-color: green">Basic Information</button ><br>
-<button class = "btn2" style ="width:150px;margin-left:90px;background-color: rgb(158, 186, 141)">Work Experience</button><br>
-<button class = "btn3" style ="width:150px;margin-left:90px;background-color: rgb(158, 186, 141)">Qualifications</button><br>
-<button class = "btn4" style ="width:150px;margin-left:90px;background-color: rgb(158, 186, 141)">Education</button><br>
-<button class = "btn5" style ="width:150px;margin-left:90px;background-color:rgb(158, 186, 141) ">Interests</button><br>
-<button class = "btn6" style ="width:150px;margin-left:90px;background-color: rgb(158, 186, 141)">References</button><br>
+    <div class="container"> 
+<h3>Նույնականացման տվյալներ</h3>
+  <a href="#" data-toggle="popover" title="Popover Header" data-content="Some content inside the popover">Նույնականացման տվյալներ</a>
+</div>
+<button onclick = "f1()" class="btn btn-outline-info" style = "width:250px"> Նույնականացման տվյալներ </button ><br>
+<button onclick = "f3()" class="btn btn-outline-info" style = "width:250px"> Կրթություն </button><br>
+<button onclick = "f2()" class="btn btn-outline-info" style = "width:250px"> Աշխատանքային փորձ </button><br>
+<button onclick = "f2()" class="btn btn-outline-info" style = "width:250px"> Որակավորում </button><br>
+<button onclick = "f3()" class="btn btn-outline-info" style = "width:250px"> Նախասիրություններ </button><br>
 </div>
 <div class = "container mx-auto" style="float:left; width: 50%;border: solid; color: rgb(141, 168, 153); margin-top: 5%; margin-bottom: 5%">
 <b> <i> Նույնականացման տվյալներ <i> <b>
