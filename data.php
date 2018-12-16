@@ -106,8 +106,8 @@ move_uploaded_file($_FILES["img"]["tmp_name"], $file);
       <p>Your Birth Day: <?= $_SESSION['date'] ?> </p>   
       <p>Your Email: <?= $_SESSION['email']  ?> </p> 
 
-    
-
+     <p>Your Adress: <?= $_SESSION['adress']  ?> </p> 
+    <p>Your gender: <?= $_SESSION['gender']  ?> </p> 
 
 
 
