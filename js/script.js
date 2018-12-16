@@ -1,10 +1,10 @@
 
 
-$(document).ready(function(){
-    $('[data-toggle="popover"]').popover();   
+(document).ready(function(){
+    ('[data-toggle="popover"]').popover();
 }); 
 
-function f1() {
+/*function ready() {
 document.body.innerHTML += "<div class = "container mx-auto" style="float:left; width: 50%;border: solid; color: rgb(141, 168, 153); margin-top: 5%; margin-bottom: 5%">	
 <input class = "form-control" type="text" name="firstname" placeholder="First name" style="margin-top:10px "> <br>
 <input class = "form-control" type="text" name="lastname" placeholder="Last name" style="margin-top:10px "> <br>
@@ -17,4 +17,4 @@ document.body.innerHTML += "<div class = "container mx-auto" style="float:left; 
 <label>
 <input type="radio" name="gender" value="female" style="margin-left: 15px">Կին</label> <br>
 <input type="file" name = "img" id = "img"></div>"
-}
+}*/

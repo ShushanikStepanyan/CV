@@ -23,14 +23,17 @@
 
 <div style="float:left; margin-top: 5%">
     <div class="container"> 
-<h3>Նույնականացման տվյալներ</h3>
-  <a href="#" data-toggle="popover" title="Popover Header" data-content="Some content inside the popover">Նույնականացման տվյալներ</a>
-</div>
-<button onclick = "f1()" class="btn btn-outline-info" style = "width:250px"> Նույնականացման տվյալներ </button ><br>
+  
+<button onclick = "f()" class="btn btn-outline-info" style = "width:250px">
+    
+<a href="#" data-toggle="popover" title="Popover Header" data-content="Some content inside the popover">Նույնականացման տվյալներ</a>
+    
+    </button ><br>
 <button onclick = "f3()" class="btn btn-outline-info" style = "width:250px"> Կրթություն </button><br>
-<button onclick = "f2()" class="btn btn-outline-info" style = "width:250px"> Աշխատանքային փորձ </button><br>
-<button onclick = "f2()" class="btn btn-outline-info" style = "width:250px"> Որակավորում </button><br>
-<button onclick = "f3()" class="btn btn-outline-info" style = "width:250px"> Նախասիրություններ </button><br>
+<button onclick = "f4()" class="btn btn-outline-info" style = "width:250px"> Աշխատանքային փորձ </button><br>
+<button onclick = "f5()" class="btn btn-outline-info" style = "width:250px"> Որակավորում </button><br>
+<button onclick = "f6()" class="btn btn-outline-info" style = "width:250px"> Նախասիրություններ </button><br>
+        </div>
 </div>
 <div class = "container mx-auto" style="float:left; width: 50%;border: solid; color: rgb(141, 168, 153); margin-top: 5%; margin-bottom: 5%">
 <b> <i> Նույնականացման տվյալներ <i> <b>
